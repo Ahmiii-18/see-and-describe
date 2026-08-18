@@ -4,7 +4,7 @@ An AI-powered web app that looks at an image (uploaded or from your camera) and 
 
 This mirrors a core building block of assistive robotics and scene-understanding systems: **perceive → understand → communicate.**
 
-**🔗 Live demo:** _add your deployed link here once published_
+**🔗 Live demo:** https://your-actual-link.streamlit.app
 
 ## Screenshots
 
