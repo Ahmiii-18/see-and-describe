@@ -16,11 +16,9 @@ from transformers import BlipProcessor, BlipForConditionalGeneration
 from gtts import gTTS
 from deep_translator import GoogleTranslator
 
-<<<<<<< HEAD
+
 st.set_page_config(page_title="See & Describe", page_icon="🤖", layout="centered")
-=======
-st.set_page_config(page_title="See & Describe", page_icon="👁️", layout="centered")
->>>>>>> 6cb6c39c24bbbdb95882e3af65c172c4b5a05d68
+
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -165,11 +163,8 @@ def load_image_safely(file) -> Image.Image | None:
 # --------------------------------------------------------------------------
 
 def main():
-<<<<<<< HEAD
+
     st.title("🤖 AI Automation (See & Describe)")
-=======
-    st.title("👁️ See & Describe")
->>>>>>> 6cb6c39c24bbbdb95882e3af65c172c4b5a05d68
     st.caption(
         "An AI vision assistant that looks at an image and describes it in "
         "natural language — the same core idea behind assistive robotics "
